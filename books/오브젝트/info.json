@@ -7,5 +7,6 @@
   "category": "Programming / Software Engineering",
   "rating": 5,
   "tags": ["객체지향", "설계", "책임 주도 설계", "OOP"],
-  "excerpt": "역할과 책임, 협력을 기반으로 객체지향 설계를 이해하고 구현하는 방법을 다룬 책."
+  "excerpt": "역할과 책임, 협력을 기반으로 객체지향 설계를 이해하고 구현하는 방법을 다룬 책.",
+  "date" : "2026-01-30"
 }
