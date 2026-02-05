@@ -1,0 +1,12 @@
+{
+  "title": "클린 코드",
+  "subtitle": "애자일 소프트웨어 장인 정신",
+  "author": "로버트 C. 마틴",
+  "publisher": "인사이트",
+  "totalPages": 464,
+  "date": "2025-01-15",
+  "category": "Programming",
+  "rating": 5,
+  "tags": ["clean-code", "java"],
+  "excerpt": "깨끗한 코드를 작성하는 방법"
+}
