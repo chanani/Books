@@ -8,5 +8,6 @@
   "rating": 5,
   "tags": ["system-design", "interview", "architecture", "scalability"],
   "excerpt": "대규모 시스템 설계 면접 문제를 단계별로 풀며 핵심 개념과 전략을 익히는 책.",
-  "date" : "2025-07-10"
+  "date" : "2025-07-10",
+  "status" : "완독"
 }
