@@ -31,7 +31,7 @@ NextStep TDD, 클린 코드 with Java 21기 후기를 남겨보려고 합니다!
 
 ## 📊 미션별 PR 리뷰
 
-### **자동차 경주 - 단위 테스트**
+### 자동차 경주 - 단위 테스트
 
 [👉🏻 1단계 : 학습 테스트 실습](https://github.com/next-step/java-racingcar/pull/6161)
 
@@ -43,7 +43,7 @@ NextStep TDD, 클린 코드 with Java 21기 후기를 남겨보려고 합니다!
 
 [👉🏻 5단계 : 자동차 경주(추가 연습)](https://github.com/next-step/java-racingcar/pull/6222)
 
-### **로또 - TDD**
+### 로또 - TDD
 
 [👉🏻 1단계 : 문자열 계산기](https://github.com/next-step/java-lotto/pull/4195)
 
@@ -53,7 +53,7 @@ NextStep TDD, 클린 코드 with Java 21기 후기를 남겨보려고 합니다!
 
 [👉🏻 4단계 : 로또(수동)](https://github.com/next-step/java-lotto/pull/4212)
 
-### **수강신청 - 레거시 리팩터링**
+### 수강신청 - 레거시 리팩터링
 
 [👉🏻 1단계 : 레거시 코드 리팩터링](https://github.com/next-step/java-lms/pull/790)
 
@@ -63,7 +63,7 @@ NextStep TDD, 클린 코드 with Java 21기 후기를 남겨보려고 합니다!
 
 [👉🏻 4단계 : 수강신청(요구사항 변경)](https://github.com/next-step/java-lms/pull/808)
 
-### **사다리타기 - FP, OOP(추가 미션)**
+### 사다리타기 - FP, OOP(추가 미션)
 
 [👉🏻 1단계 : 스트림, 람다, Optional](https://github.com/next-step/java-ladder/pull/2426)
 
