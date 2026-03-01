@@ -21,6 +21,8 @@
 
 ### 색상
 
-파란색 : <strong style="color:#006dd7;"></strong>  
-빨간색 : <strong style="color:#ee2323;"></strong>
+파란색  
+<strong style="color:#006dd7;"></strong>  
+빨간색  
+<strong style="color:#ee2323;"></strong>
 
