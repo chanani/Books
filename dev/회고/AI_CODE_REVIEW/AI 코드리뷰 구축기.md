@@ -126,6 +126,7 @@ jobs:
             PR #${{ github.event.pull_request.number }}을 코드 리뷰해줘.
           claude_args: "--allowedTools Bash(gh pr:*),Bash(gh api:*)"
 ```
+
 </details>
 
 <details> <summary><strong>📂 claude.yml</strong></summary>
@@ -171,6 +172,14 @@ jobs:
           additional_permissions: |
             actions: read
 ```
+
 </details>
 
+### claude code로 한번에 설정하기
 
+지금까지 진행한 내용을 claude code에서 한번에 설치할 수 있습니다.
+프로젝트 내부로 진입한 후 `/install-github-app`를 입력해주세요. `gh`도 같이 설치해주셔야합니다.
+
+## 사내 테스트 및 피드백
+
+...작성중
