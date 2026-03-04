@@ -6,7 +6,8 @@ description: "AI 코드 리뷰 구축기"
 ---
 
 작년 사내에서 사용할 수 있는 **AI 코드 리뷰** 라이브러리를 제작했습니다.
-라이브러리를 구축했지만 독립된 서버에서 라이브러리를 실행시키기 위해 파이프라인 구축과 설정파일을 서버 생성 시 반복적으로 작업해야 되는 번거로움이 있었습니다.
+라이브러리를 구축했지만 독립된 서버에서 라이브러리를 실행시키기 위해 파이프라인 구축과 설정파일을 서버 생성 시
+반복적으로 작업해야 되는 번거로움이 있었습니다.
 
 단점을 보완할 수 있는 방법을 찾던 중 우연히 **무신사의 AI 코드 리뷰 구축기** 블로그 글을 보게 되었고,
 저와 비슷한 고민을 하고 있어 해당 블로그를 참고해 작업을 이어가기로 했습니다.
@@ -59,9 +60,6 @@ AI 코드 리뷰 라이브러리를 직접 구축하기로 되었습니다.
 → PR 기반 코드 리뷰 및 피드백 제공  
 → GitHub 댓글 및 리뷰와 자연스럽게 통합  
 → 공통 실행 환경 제공(인프라 구성 불필요)
-
-[Repository](https://github.com/anthropics/claude-code-action)
-[Document](https://code.claude.com/docs/en/github-actions)
 
 ## 🧑🏻‍💻 Claude Code Action 도입하기
 
@@ -180,6 +178,28 @@ jobs:
 지금까지 진행한 내용을 claude code에서 한번에 설치할 수 있습니다.
 프로젝트 내부로 진입한 후 `/install-github-app`를 입력해주세요. `gh`도 같이 설치해주셔야합니다.
 
-## 사내 테스트 및 피드백
+## 💬 사내 테스트 및 피드백
 
-...작성중
+지금까지의 프로세스를 도입하고 불편한 부분을 개선하고자 사내 동료 개발자들의 피드백을 받았습니다.
+대부분 긍정적인 반응이었지만 생각했던 것처럼 불편한 부분이 존재했습니다.
+
+문제는 설정파일을 서버마다 추가해줘야 한다는 번거로움이 존재한다는 것이었습니다.
+
+<div align="center">
+  <img src="../../../assets/images/dev/회고/code-review/code-review-comment.png" alt="nextstep" width="500">
+</div>
+<div align="center">
+  <img src="../../../assets/images/dev/회고/code-review/code-review-comment1.png" alt="nextstep" width="500">
+</div>
+<div align="center">
+  <img src="../../../assets/images/dev/회고/code-review/code-review-comment2.png" alt="nextstep" width="500">
+</div>
+<div align="center">
+  <img src="../../../assets/images/dev/회고/code-review/code-review-comment3.png" alt="nextstep" width="500">
+</div>
+
+## 참고 자료
+
+- [무신사의 AI 코드 리뷰 프로세스 구축기](https://techblog.musinsa.com/%EB%AC%B4%EC%8B%A0%EC%82%AC%EC%9D%98-ai-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B5%AC%EC%B6%95%EA%B8%B0-3ddb3c674e56)
+- [claude-code-action GitHub Repository](https://github.com/anthropics/claude-code-action)
+- [Claude Code Github Actions Document](https://code.claude.com/docs/en/github-actions)
