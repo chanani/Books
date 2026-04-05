@@ -1,0 +1,16 @@
+{
+  "title": "테스트도서",
+  "subtitle": "테스트도서 부제목",
+  "author": "이찬한",
+  "publisher": "동작구",
+  "totalPages": 10,
+  "category": "programming",
+  "rating": 4,
+  "tags": [
+    "java",
+    "oop"
+  ],
+  "excerpt": "테스트 요약",
+  "date": "1995-07-10",
+  "status": "완독"
+}
