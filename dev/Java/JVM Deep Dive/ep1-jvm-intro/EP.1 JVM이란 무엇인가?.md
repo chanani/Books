@@ -87,7 +87,7 @@ public class Hello {
 
 ```bash
 $ javac Hello.java
-# → Hello.class 파일 생성
+→ Hello.class 파일 생성 
 ```
 
 `javac`(Java Compiler)가 `.java` 소스파일을 읽어 `.class` 파일(ByteCode)을 생성합니다. 이 과정에서 문법 오류를 잡아냅니다.
