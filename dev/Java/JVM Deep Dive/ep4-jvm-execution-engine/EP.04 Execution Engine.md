@@ -286,7 +286,7 @@ NEW ──────────────→ RUNNABLE
             BLOCKED     ↓
                 WAITING / TIMED_WAITING
                         │
-                notify() / notifyAll()
+               notify() / notifyAll()
                    sleep 시간 만료
                      join 완료
                         │
@@ -410,7 +410,7 @@ JVM은 성능을 위해 lock을 상황에 따라 세 단계로 처리합니다. 
 
 동작:
   최초 lock 획득 → Mark Word에 Thread ID 기록
-  이후 같은 스레드 → Mark Word만 확인, CAS 연산 없이 바로 진입
+  이후 같은 스레드 → Mark Word만 확인, CAS(Compare-And-Swap) 연산 없이 바로 진입
 
 비용: 거의 없음 (Mark Word 확인만)
 ```
@@ -429,7 +429,7 @@ Mark Word:
 
 동작:
   lock 경합 발생 → Biased Lock 해제
-  CAS(Compare-And-Swap) 연산으로 lock 획득 시도
+  CAS 연산으로 lock 획득 시도
   스핀(spin)하며 반복 시도 → 일정 횟수 내 성공하면 OK
 
 비용: CAS 연산 (OS 개입 없음)
