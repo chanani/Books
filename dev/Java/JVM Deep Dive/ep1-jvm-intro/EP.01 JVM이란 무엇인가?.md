@@ -1,5 +1,5 @@
 ---
-title: "EP.1 JVM이란 무엇인가?"
+title: "EP.01 JVM이란 무엇인가?"
 date: "2025-04-06"
 episode: 1
 tags: ["JVM", "Java"]

@@ -1,5 +1,5 @@
 ---
-title: "EP.2 Runtime Data Area — JVM 메모리 구조"
+title: "EP.02 Runtime Data Area — JVM 메모리 구조"
 date: "2025-04-06"
 episode: 2
 tags: [ "JVM", "Java", "Memory", "Heap", "Stack" ]
