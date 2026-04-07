@@ -1,6 +1,10 @@
 {
   "title": "JVM Deep Dive",
   "description": "JVM 내부 구조를 파헤치는 시리즈",
-  "tags": ["JVM", "Java"],
-  "updatedAt": "2026-04-06"
+  "status": "연재중",
+  "tags": [
+    "JVM",
+    "Java"
+  ],
+  "updatedAt": "2026-04-07"
 }
