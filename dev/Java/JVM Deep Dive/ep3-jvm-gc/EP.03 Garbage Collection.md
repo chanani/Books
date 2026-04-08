@@ -1,6 +1,6 @@
 ---
 title: "EP.03 Garbage Collection — 원리부터 최신 GC까지"
-date: "2025-04-07"
+date: "2026-04-07"
 episode: 3
 tags: [ "JVM", "Java", "GC", "Garbage Collection" ]
 ---

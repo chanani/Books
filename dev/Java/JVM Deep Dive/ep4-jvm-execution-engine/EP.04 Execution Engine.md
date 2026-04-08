@@ -1,6 +1,6 @@
 ---
 title: "EP.04 Execution Engine과 JVM 스레드"
-date: "2025-04-07"
+date: "2026-04-07"
 episode: 4
 tags: [ "JVM", "Java", "JIT", "Execution Engine", "Thread", "Virtual Thread" ]
 ---
