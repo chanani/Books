@@ -1,0 +1,11 @@
+{
+  "title": "HashMap Deep Dive",
+  "description": "HashMap 내부 구조를 파헤치는 시리즈",
+  "tags": [
+    "Java",
+    "HashMap",
+    "equals",
+    "hashCode"
+  ],
+  "updatedAt": "2026-04-13"
+}
