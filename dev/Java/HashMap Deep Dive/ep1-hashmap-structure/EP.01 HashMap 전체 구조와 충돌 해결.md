@@ -217,7 +217,7 @@ static final int MIN_TREEIFY_CAPACITY  = 64;  // 트리 전환 최소 배열 크
 
 ```
 버킷 안의 노드 수 ≥ 8
-                   AND
+AND
 전체 배열 크기(capacity) ≥ 64
 ```
 
@@ -247,7 +247,7 @@ load factor 0.75 기준으로 길이가 8 이상이 될 확률은 약 **0.000000
 ### 트리 전환 후의 구조
 
 ```
-전환 전                          전환 후
+전환 전                            전환 후
 
 table[5]                         table[5]
    │                                │
