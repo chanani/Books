@@ -1,5 +1,5 @@
 ---
-title: "claude code FDE night meetup 후기"
+title: "Claude code FDE night meetup 후기"
 date: "2026-04-17"
 tags: [ "Claude code", "FDE night", "meetup" ]
 description: "claude code FDE night"
