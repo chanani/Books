@@ -1,0 +1,11 @@
+{
+  "title": "Thread Deep Dive",
+  "description": "Java 스레드와 동시성을 파헤치는 시리즈",
+  "status": "연재중",
+  "tags": [
+    "Thread",
+    "Java",
+    "Concurrency"
+  ],
+  "updatedAt": "2026-05-07"
+}
