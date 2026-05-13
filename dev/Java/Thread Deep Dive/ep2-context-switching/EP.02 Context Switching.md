@@ -1,6 +1,6 @@
 ---
 title: "EP.02 Context Switching — OS는 스레드를 어떻게 전환하는가"
-date: "2026-05-15"
+date: "2026-05-11"
 episode: 2
 tags: ["Thread", "OS", "Context Switching", "Concurrency"]
 ---
@@ -75,16 +75,16 @@ CPU Core 1: │ T1 │ T2 │ T3 │ T1 │ T4 │ T2 │ T1 │ T3 │ ...
 이 정보들은 OS가 **TCB(Thread Control Block)** 라는 자료구조에 보관합니다. 프로세스 단위에서는 **PCB(Process Control Block)** 가 같은 역할을 합니다.
 
 ```
-              ┌──────────────────────┐
-              │    TCB of Thread A   │
-              │  ┌─────────────────┐ │
-              │  │ Thread ID       │ │
-              │  │ State           │ │
-              │  │ PC, SP, Regs    │ │  ← 컨텍스트가 여기 저장됨
-              │  │ Priority        │ │
-              │  │ Pointer to PCB  │ │  ← 어느 프로세스에 속하는지
-              │  └─────────────────┘ │
-              └──────────────────────┘
+┌──────────────────────┐
+│    TCB of Thread A   │
+│  ┌─────────────────┐ │
+│  │ Thread ID       │ │
+│  │ State           │ │
+│  │ PC, SP, Regs    │ │  ← 컨텍스트가 여기 저장됨
+│  │ Priority        │ │
+│  │ Pointer to PCB  │ │  ← 어느 프로세스에 속하는지
+│  └─────────────────┘ │
+└──────────────────────┘
 ```
 
 ---
