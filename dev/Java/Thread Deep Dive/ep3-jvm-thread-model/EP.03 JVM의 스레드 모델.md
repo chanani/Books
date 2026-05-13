@@ -1,5 +1,5 @@
 ---
-title: "EP.03 JVM의 스레드 모델 — Java 스레드는 OS와 어떻게 매핑되는가"
+title: "EP.03 JVM의 스레드 모델"
 date: "2026-05-13"
 episode: 3
 tags: [ "JVM", "Thread", "Java", "Virtual Thread" ]

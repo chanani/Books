@@ -1,5 +1,5 @@
 ---
-title: "EP.02 Context Switching — OS는 스레드를 어떻게 전환하는가"
+title: "EP.02 Context Switching"
 date: "2026-05-11"
 episode: 2
 tags: ["Thread", "OS", "Context Switching", "Concurrency"]

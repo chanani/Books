@@ -1,5 +1,5 @@
 ---
-title: "EP.01 스레드와 프로세스 — 기초부터 생명주기까지"
+title: "EP.01 스레드와 프로세스"
 date: "2026-05-08"
 episode: 1
 tags: ["Thread", "Java", "Concurrency", "Process"]
