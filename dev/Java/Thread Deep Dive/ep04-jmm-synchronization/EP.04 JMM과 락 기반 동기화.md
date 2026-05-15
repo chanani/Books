@@ -1,6 +1,6 @@
 ---
 title: "EP.04 JMM과 락 기반 동기화"
-date: "2026-05-29"
+date: "2026-05-15"
 episode: 4
 tags: [ "JMM", "synchronized", "volatile", "Java", "Concurrency", "Lock" ]
 ---
