@@ -1,6 +1,6 @@
 ---
 title: "EP.05 CAS와 Atomic"
-date: "2026-06-05"
+date: "2026-05-17"
 episode: 5
 tags: ["CAS", "Atomic", "Java", "Concurrency", "Lock-free"]
 ---
